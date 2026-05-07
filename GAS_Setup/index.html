@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hybrid Scent Engineer - Web App Setup</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f7f3e9;
+        color: #333;
+        line-height: 1.6;
+        padding: 40px 20px;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .card {
+        background: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        margin-bottom: 20px;
+      }
+      h1 {
+        color: #d97706; /* amber-600 */
+        margin-top: 0;
+      }
+      p { margin-bottom: 1em; }
+      ul { padding-left: 20px; }
+      li { margin-bottom: 8px; }
+      .success {
+        color: #166534;
+        background: #dcfce7;
+        padding: 10px;
+        border-radius: 8px;
+        font-weight: 500;
+        display: inline-block;
+      }
+      code {
+        background: #f1f5f9;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-family: SFMono-Regular, Consolas, monospace;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>AI Upgrade Engine - Setup Sukses!</h1>
+      <p>Jika kamu melihat halaman ini, berarti Web App Google Apps Script telah berhasil dikonfigurasi dan di-deploy.</p>
+
+      <h3>Langkah Selanjutnya:</h3>
+      <ul>
+        <li>Pastikan kamu sudah menjalankan fungsi <code>setupDatabaseSheets()</code> dari menu editor Apps Script agar semua TAB muncul.</li>
+        <li>Buka tab Spreadsheet-nya, dan lengkapi data pada <strong>DNA_DATABASE</strong>, <strong>PROBLEM_SOLVER</strong>, dan lain-lain sesuai keinginanmu. AI akan membaca data ini sebagai otak rekomendasi formulanya.</li>
+        <li>Copy URL Web App ini yang berakhiran <code>/exec</code></li>
+        <li>Buka file <code>.env</code> di project code kamu (React/Vite).</li>
+        <li>Ganti value pada <strong>VITE_GAS_API_URL</strong> dengan URL tersebut.</li>
+      </ul>
+
+      <div class="success">🚀 API is Running & Ready!</div>
+    </div>
+  </body>
+</html>
